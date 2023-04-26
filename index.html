@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Juego de memoria</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bloc de Notas</h1>
+    </header>
+    <main>
+      <section>
+        <form id="formulario">
+          <label for="titulo">Título</label>
+          <input type="text" id="titulo"  name="titulo"  class="form-control" required>
+          <label for="contenido">Contenido</label>
+          <textarea id="contenido"  name="contenido" required></textarea>
+          <button type="submit" class="custom-btn btn-1">Agregar Nota</button>
+        </form>
+      </section>
+      <section>
+        <div id="lista-notas">
+
+
+        </div>
+      </section>
+    </main>
+    <script src="Nota.js"></script>
+  </body>
+</html>
