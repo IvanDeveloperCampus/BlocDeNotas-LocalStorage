@@ -5,6 +5,11 @@
     <title>Juego de memoria</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="manifest" href="./manifest.json">
+    <script type="text/javascript">
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
   </head>
   <body>
     <header>
